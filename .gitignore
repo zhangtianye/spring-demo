@@ -1,3 +1,6 @@
 .idea
 dist
 */target
+*.iml
+*.ipr
+*.iws
