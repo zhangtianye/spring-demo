@@ -1,6 +1,6 @@
 package com.example.demo.service;
 
-import api.User;
+import com.example.demo.api.User;
 import org.springframework.stereotype.Service;
 
 @Service
