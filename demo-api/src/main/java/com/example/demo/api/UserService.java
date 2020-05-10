@@ -1,6 +1,6 @@
 package com.example.demo.api;
 
-public interface User {
+public interface UserService {
 
     String getUserName(String name);
 }

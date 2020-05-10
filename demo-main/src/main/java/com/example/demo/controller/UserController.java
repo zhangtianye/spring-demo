@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
-import com.example.demo.service.UserImpl;
+import com.example.demo.service.UserServiceImpl;
 
 import javax.websocket.server.PathParam;
 
@@ -14,7 +14,7 @@ import javax.websocket.server.PathParam;
 public class UserController {
 
     @Autowired
-    private UserImpl userImpl;
+    private UserServiceImpl userImpl;
 
     @RequestMapping(value = "/name", method = RequestMethod.GET)
     @ResponseBody
