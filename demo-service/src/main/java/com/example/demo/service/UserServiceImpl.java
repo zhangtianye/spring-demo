@@ -10,7 +10,7 @@ import org.slf4j.LoggerFactory;
 @Service
 public class UserServiceImpl implements UserService {
 
-    final Logger logger = LoggerFactory.getLogger(getClass());
+    private static final Logger logger = LoggerFactory.getLogger(UserServiceImpl.class);
 
     @Override
     public String getUserName(String name) {
